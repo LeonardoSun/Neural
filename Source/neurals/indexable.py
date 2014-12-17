@@ -22,3 +22,14 @@ class NestingArrayIndexable(Indexable):
             return self._array[y_index][x_index]
         else:
             return None
+        
+class ListIndexable(Indexable):
+    def __init__(self, lst):
+        self._lst = lst
+        self.shape = (len(lst), )
+        
+    def get(self, x_index, y_index):
+        if 0 <= x_index < self.shape[0]:
+            return self._lst[x_index]
+        else:
+            return None
