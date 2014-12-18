@@ -23,6 +23,19 @@ low level abstract is related to cortex level structure.
 low level cortex generates patterns,
 simply connect patterns,  which called remember.
 
+construct cognition:
+like vision, we first remember the blur image, like painting.
+we first recognize, in simple objects, some pixels are moving together.
+for complex objects, the blur image is still moves together,
+but some detail will be different.
+so we understand, the difference between blur image and its detail.
+so, we always remember the blur image first.
+only if the detail is too impressive or the whole object hasn't been seen
+or the detail is much clear than the shape, the blur image.
+(the clear here means the easy level to remove background.)
+
+
+
 the smart is base on forget.
 
 
